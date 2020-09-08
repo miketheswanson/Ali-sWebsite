@@ -1,0 +1,126 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('owl.carousel.css');
+@import url('owl.carousel.min.css');
+@import url('owl.theme.default.min.css');
+header{height: 70px;box-shadow:1px 3px 5px #777;position:fixed;width: 100%;background:#fff;z-index: 999999;}
+header * .container{font-family: 'Raleway', sans-serif;}
+body * .container{max-width: 1336px;font-family: 'Poppins', sans-serif;}
+
+header ul li a{color:#002447;opacity:1;font-size:14px;text-transform: uppercase;font-weight: 600;}
+.navbar-light .navbar-toggler{border:0px;}
+.navbar-light .navbar-brand{padding:0px;}
+header ul li:last-of-type a{border:2px solid #002447;padding:7.5px 30px;text-transform: capitalize;border-radius:3px;}
+header .navbar-nav{margin-left:auto;display: flex;justify-content:space-between;align-items: center;width: 55%;}
+
+header form{position: relative;margin-right:15px;width: auto;}
+header form input{font-family:'Raleway',sans-serif;font-size: 14px;color:#333;text-transform: capitalize;border:1px solid #ccc;height: 35px;padding-left: 10px;background:transparent;}
+header form button{position: absolute;right: 5px;top:50%;transform: translateY(-50%);padding:0px;border:0px;background:transparent;}
+header form button i{color:#333;font-size:16px;}
+
+header button{border:0px solid #ccc;background:transparent;margin:0 1.5px;}
+header button i.fa-sun{color:goldenrod;font-size:16px;}
+header button i.fa-moon{color:darkgray;font-size:16px;}
+
+
+#home{overflow: hidden;}
+#home #mainbanner{margin-top:70px;}
+#home #mainbanner .carousel-caption{background:rgba(0,0,0,0.5);}
+#home #mainbanner .container-fluid .row img{width: 100%;max-height:500px;object-fit: cover;}
+#home #mainbanner .text{display: flex;flex-direction:column;justify-content: center;align-items: center;}
+#home #mainbanner .carousel-caption p{color: #fff;font-size:25px;font-family: 'Raleway', sans-serif;margin-bottom:.5rem;text-transform: capitalize;}
+#home #mainbanner .carousel-caption h5{color: #fff;font-size:50px;font-family: 'Poppins', sans-serif;word-break:break-all;}
+#home #mainbanner .carousel-indicators li{width:15px;height: 15px;margin:0 10px;border-radius: 100%;}
+
+
+
+#home #whyentact{position: relative;padding:50px 0;} 
+#home #whyentact .heading h1{font-family:'Poppins',sans-serif;font-size:50px;color:#333;text-transform: capitalize;margin-bottom: 1.5rem;text-align: center;}
+#home #whyentact .reasons{margin-bottom: 50px;text-align: center;  animation-name:reason;animation-duration:1s;}
+#home #whyentact .reasons img{max-height: 450px;object-fit: contain;opacity:1;}
+@keyframes reason {
+    from { 
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+#home #whyentact .reasons .inner{position: absolute;top:0;left:0;right:0;margin:0 auto;background:rgba(0,0,0,0.6);height: 100%;width: 100%;max-width:89%;display:none;flex-direction:column;justify-content:flex-end;bottom:5%;align-items:center;}
+#home #whyentact .reasons:hover .inner{display: flex;animation-name:reason;animation-duration: 2s;}
+#home #whyentact .reasons strong{font-family:'Poppins',sans-serif;font-size: 22px;font-weight:bold;color:#fff;text-transform: capitalize;display: block;margin:15px auto 15px;font-weight: normal;}
+#home #whyentact .reasons a{font-family:'Raleway',sans-serif;font-size:16px;color:#fff;text-decoration: none;border-radius:3px;background:#000;width:45%;display: block;margin:10px auto 10px;padding:6px;}
+
+
+#home #featuredbooks .heading h1{font-family:'Poppins',sans-serif;font-size:50px;color:#333;text-transform: capitalize;margin-bottom: 1.5rem;text-align: center;}
+#home #featuredbooks ul{padding-top:50px!important;}
+#home #featuredbooks ul li{list-style-type: none;}
+#home #featuredbooks ul li img{width: 100%;margin-bottom: 5px;height:270px;object-fit:fill;}
+#home #featuredbooks ul li p{color:#777;font-size: 16px;font-family: 'Poppins',sans-serif;text-transform: capitalize;margin-bottom:5px;line-height: normal;text-align:center;}
+#home #featuredbooks ul li b{color:#999;font-size: 15px;font-family: 'Poppins',sans-serif;text-transform: capitalize;margin-bottom:5px;line-height: normal;display: block;text-align:center;}
+#home #featuredbooks ul li a{color:#fff;font-size: 16px;font-family: 'Poppins',sans-serif;text-transform: capitalize;margin-bottom:5px;line-height: normal;display: block;background:#000;height: 30px;text-align:center;line-height:30px;width: 100%;border-radius:2px;text-decoration: none;}
+#home #featuredbooks ul li a i{color:#fff;padding-right:10px;}
+#home #featuredbooks ul .owl-nav .owl-prev{position: absolute;left:0;top: 0;width:40px;height:30px;background:#333;color:#fff;text-align:center;line-height: 30px;}
+#home #featuredbooks ul .owl-nav .owl-next{position: absolute;right:0;top: 0;width:40px;height:30px;background:#333;color:#fff;text-align:center;line-height: 30px;}
+
+
+
+#home #iama{background: url("./Path 435@1X.png");background-size: cover;background-repeat: repeat-x;background-position: center;padding-bottom: 50px;}
+#home #iama .heading h1{font-family: 'Poppin',sans-serif;font-size: 50px;margin:100px 0;color:#002447;text-align: center;}
+#home #iama .inner{border:2px solid #002447;border-radius:10px;text-align: center;margin-bottom: 15px;}
+#home #iama .inner img{width: 100%;}
+#home #iama .inner strong{font-weight: normal;font-family: 'Poppins',sans-serif;font-size:30px;color:#002447;text-transform: capitalize;display: block;margin:10px auto 40px;}
+#home #iama .inner p{font-family:'Raleway',sans-serif;font-size: 14px;color:#002447;margin-bottom: 40px;width: 60%;margin:0 auto 40px;}
+#home #iama .inner a{display: block;width: 121px;height: 40px;text-decoration: none;line-height: 40px;font-family:'Raleway',sans-serif;font-size: 12px;border-radius: 3px;text-transform: uppercase;text-align: center;background:#008FDB;margin:0 auto 40px;color:#fff;}
+
+
+#home #ongoingevents{background: url("./background\ ongoing@1X.png")no-repeat;background-size:contain;background-position:center;padding-bottom: 50px;}
+#home #ongoingevents .heading h1{font-family: 'Poppin',sans-serif;font-size: 50px;margin:100px 0;color:#002447;text-align: center;}
+#home #ongoingevents .events .inside{border:2px solid #002447;margin-bottom: 15px;border-radius:10px;padding-bottom:30px;}
+#home #ongoingevents .events .inside img{width: 100%;}
+#home #ongoingevents .events .inside p{color:#002447;font-family: 'Raleway',sans-serif;font-size:14px;padding:0 15px;margin:5px 0;font-weight: bolder;margin-bottom: 50px;}
+#home #ongoingevents .events .inside strong{color:#88C8E3;font-family:'Raleway',sans-serif;font-size:14px;text-transform: capitalize;padding:0 15px;display: block;font-weight: normal;}
+#home #ongoingevents .events .inside hr{width: 90%;border-top:1px solid #88C8E3;margin:10px auto 5px;}
+#home #ongoingevents .link a{display: block;width: 186px;height: 40px;text-decoration: none;line-height: 40px;font-family:'Raleway',sans-serif;font-size: 12px;border-radius: 3px;text-transform: uppercase;text-align: center;background:#008FDB;margin:40px auto 40px;color:#fff;}
+
+footer #innerfooter{background:#ccc;padding:40px 0 40px;}
+footer #innerfooter .first a{display: block;font-family:'Raleway',sans-serif;font-size:14px;color:#000;margin-bottom: 20px;line-height: normal;text-decoration: none;text-transform: capitalize;font-weight: 700;}
+footer #innerfooter .first span{display: flex;justify-content: space-between;align-items: center;}
+footer #innerfooter .first p{display: block;font-family:'Raleway',sans-serif;font-size:14px;color:#000;margin-bottom: 20px;line-height: normal;font-weight: 700;}
+footer #copyright{background:black;padding:15px 0;}
+footer #copyright .drop{display: flex;justify-content: center;align-items: center;}
+footer #copyright select{background:transparent!important;border:2px solid #88C8E3;font-family:Arial, Helvetica, sans-serif;font-size: 10px;text-transform: uppercase;color:#fff;padding:10px 20px;border-radius:5px;}
+footer #copyright select option{font-family:Arial, Helvetica, sans-serif;font-size: 10px;text-transform: uppercase;color:#fff;}
+footer #copyright p{font-family:'Raleway',sans-serif;font-size:12px;color:#fff;text-transform: capitalize;margin-bottom:10px;}
+footer #copyright a{font-family:'Raleway',sans-serif;font-size:12px;color:#88C8E3;text-transform: capitalize;text-decoration: none;}
+
+
+@media(max-width:991px)
+{
+.navbar{padding:0px;}
+#navbarTogglerDemo02{background:#fff;box-shadow:0px 0px 4px #777;z-index: 9999999;}
+header .navbar-nav{display: block;padding: 15px;width: 100%;}
+header ul li:last-of-type a{border:0px;}
+#home * h1{font-size:40px!important;}
+#home #iama .heading h1{margin:45px 0;}
+#home #ongoingevents .heading h1{margin: 45px 0;}
+#home #whyentact .heading p{width: 100%;}
+}
+@media(max-width:767px)
+{
+    #home * h1{font-size:35px!important;}
+    #home #mainbanner .image{margin-top:20px;}
+    #home #iama .heading h1{margin:35px 0;}
+    #home #ongoingevents .heading h1{margin:35px 0;}
+}
+@media(max-width:575px)
+{
+    #home * h1{font-size:30px!important;}
+    #home #iama .heading h1{margin:25px 0;}
+    #home #ongoingevents .heading h1{margin:25px 0;}
+    footer #innerfooter .first{margin-bottom:20px;}
+    footer #copyright{text-align: center;}
+    footer #copyright select{margin-bottom:20px;}
+}
