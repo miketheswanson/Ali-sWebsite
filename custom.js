@@ -108,10 +108,22 @@ bio:
 "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
 social: {
 facebook: "#",
-twitter: "https://twitter.com/knyttneve",
+twitter: "#",
 linkedin: "#"
 }
 },
+{
+  name: "Hassan Jan",
+  photo: "https://github.com/miketheswanson/Ali-sWebsite/blob/master/119011195_238469344205266_8452840549706979560_n.jpg?raw=true",
+  title: "Editor",
+  bio:
+  "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
+  social: {
+  facebook: "#",
+  twitter: "#",
+  linkedin: "#"
+  }
+  },
 {
 name: "Ahsan Abbas",
 photo: "https://scontent.fisb5-1.fna.fbcdn.net/v/t1.0-9/95666237_981532792263580_1262024858020085760_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_eui2=AeETjgeY7G8DU1VOh7o4GekxQICG7z7kfEpAgIbvPuR8Svxlyt694lN2AtE-dIzpP9Y-jny0w9DoOUSK62kGjzpq&_nc_ohc=UQ4zdM7L1BMAX9UvOVT&_nc_ht=scontent.fisb5-1.fna&oh=1a37709f72664e8bad89e025f27d398b&oe=5F7D8AFA",
