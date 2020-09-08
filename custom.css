@@ -5,7 +5,7 @@
 @import url('owl.carousel.css');
 @import url('owl.carousel.min.css');
 @import url('owl.theme.default.min.css');
-header{height: 70px;box-shadow:1px 3px 5px #777;position:fixed;width: 100%;background:#fff;z-index: 999999;}
+header{height: 70px;position:fixed;width: 100%;background:#fff;z-index: 999999;}
 header * .container{font-family: 'Raleway', sans-serif;}
 body * .container{max-width: 1336px;font-family: 'Poppins', sans-serif;}
 
@@ -70,7 +70,7 @@ header button i.fa-moon{color:darkgray;font-size:16px;}
 
 #ourteam{padding-top:70px;}
 #team {
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100%;
     font-family: 'Poppins',sans-serif;
     background-color: #282828;
@@ -429,6 +429,8 @@ header ul li:last-of-type a{border:0px;}
 @media(max-width:575px)
 {
     #home * h1{font-size:30px!important;}
+    .navbar-light .navbar-brand{width: 100%;text-align: center;}
+    header{height: 115px;}
     #home #iama .heading h1{margin:25px 0;}
     #home #ongoingevents .heading h1{margin:25px 0;}
     footer #innerfooter .first{margin-bottom:20px;}
