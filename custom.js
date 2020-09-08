@@ -77,7 +77,7 @@ const persons = [
 {
 name: "Ali Asghar",
 photo: "https://github.com/miketheswanson/Ali-sWebsite/blob/master/WhatsApp%20Image%202020-09-09%20at%2012.07.53%20AM.jpeg?raw=true",
-title: "Owner",
+title: "CEO",
 bio:
 "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
 social: {
@@ -89,7 +89,7 @@ linkedin: "#"
 {
 name: "Kubra Ali",
 photo: "https://github.com/miketheswanson/Ali-sWebsite/blob/master/kubra.PNG?raw=true",
-title: "Co-Owner",
+title: "COO",
 bio:
 "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto ea blanditiis quo labore esse magnam illum ut quibusdam. Corrupti ratione iure aliquam adipisci! Harum vitae laboriosam temporibus illo suscipit?</p><p>Saepe repudiandae rerum quam ut perferendis, ullam similique nemo quod, assumenda mollitia consectetur. Eveniet optio maxime perferendis odit possimus? Facilis architecto nesciunt doloribus consectetur culpa veritatis accusamus expedita quos voluptate!</p><p>Nisi provident minus possimus optio voluptate rem, perspiciatis, placeat, culpa aperiam quod temporibus.</p>",
 social: {
