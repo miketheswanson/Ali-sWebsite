@@ -430,6 +430,7 @@ header ul li:last-of-type a{border:0px;}
     #home * h1{font-size:30px!important;}
     .navbar-light .navbar-brand{width: 100%;text-align: center;}
     header{height: 115px;}
+    #ourteam{padding-top:115px;}
     #home #iama .heading h1{margin:25px 0;}
     #home #ongoingevents .heading h1{margin:25px 0;}
     footer #innerfooter .first{margin-bottom:20px;}
