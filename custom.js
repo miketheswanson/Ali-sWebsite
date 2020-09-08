@@ -87,7 +87,7 @@ linkedin: "#"
 }
 },
 {
-name: "Kubra Ali",
+name: "Kubra Zahid",
 photo: "https://github.com/miketheswanson/Ali-sWebsite/blob/master/kubra.PNG?raw=true",
 title: "COO",
 bio:
