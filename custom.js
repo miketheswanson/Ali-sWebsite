@@ -10,6 +10,7 @@ $("#sun").click(function()
     $(".heading h1").css("color","#333");
     $("#home #featuredbooks ul li a").css("background","#000");
     $(".navbar-light .navbar-toggler-icon").css("filter","invert(0)");
+    $("#team").css("background-color","#282828");
     $("footer #innerfooter").css("background","#ccc");
     $("footer #copyright").css("background","#000");
     $("footer #innerfooter *").css("color","#000");
@@ -28,6 +29,7 @@ $("#moon").click(function()
     $(".heading h1").css("color","#fff");
     $("#home #featuredbooks ul li a").css("background","#333");
     $(".navbar-light .navbar-toggler-icon").css("filter","invert(1)");
+    $("#team").css("background-color","#000");
     $("footer #innerfooter").css("background","#000");
     $("footer #copyright").css("background","#000");
     $("footer *").css("color","#fff");

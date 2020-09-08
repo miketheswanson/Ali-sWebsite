@@ -271,7 +271,8 @@ header button i.fa-moon{color:darkgray;font-size:16px;}
     min-height: 100%;
     display: flex;
     align-items: center;
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     position: relative;
     right: 0;
     flex-wrap: wrap;
