@@ -4,6 +4,7 @@ $("#sun").click(function()
     $("header").css("background","#fff");
     $("header").css("transition","ease out 4s");
     $("header ul li a").css("color","#002447");
+    $("#navbarTogglerDemo02").css("background","#fff");
     $("header form input").css("border","1px solid #ccc");
     $(".navbar-light .navbar-brand img").css("filter","invert(0)");
     $("#home #mainbanner .container").css("background","rgba(0,0,0,0.5)");
@@ -11,6 +12,8 @@ $("#sun").click(function()
     $("#home #featuredbooks ul li a").css("background","#000");
     $(".navbar-light .navbar-toggler-icon").css("filter","invert(0)");
     $("#team").css("background-color","#282828");
+    $("#category").css("background","#182028");
+    $("#category ul li").css("background-color","#182028");
     $("footer #innerfooter").css("background","#ccc");
     $("footer #copyright").css("background","#000");
     $("footer #innerfooter *").css("color","#000");
@@ -23,6 +26,7 @@ $("#moon").click(function()
     $("header").css("background","#000");
     $("header").css("transition","ease out 4s");
     $("header ul li a").css("color","#fff");
+    $("#navbarTogglerDemo02").css("background","#000");
     $("header form input").css("border","1px solid #333");
     $(".navbar-light .navbar-brand img").css("filter","invert(1)");
     $("#home #mainbanner .container").css("background","rgba(0,0,0,0.7)");
@@ -30,6 +34,8 @@ $("#moon").click(function()
     $("#home #featuredbooks ul li a").css("background","#333");
     $(".navbar-light .navbar-toggler-icon").css("filter","invert(1)");
     $("#team").css("background-color","#000");
+    $("#category").css("background","#000");
+    $("#category ul li").css("background-color","#000");
     $("footer #innerfooter").css("background","#000");
     $("footer #copyright").css("background","#000");
     $("footer *").css("color","#fff");
