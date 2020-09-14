@@ -12,8 +12,14 @@ $("#sun").click(function()
     $("#home #featuredbooks ul li a").css("background","#000");
     $(".navbar-light .navbar-toggler-icon").css("filter","invert(0)");
     $("#team").css("background-color","#282828");
-    $("#category").css("background","#182028");
-    $("#category ul li").css("background-color","#182028");
+    $("#category").css("background","#fff");
+    $("#category ul li").css("background-color","#fff");
+    $("#category ul li::before").css("background-color","#242424");
+    $("#category ul li::before").css("background","conic-gradient(#cac0c0 25%, #888888 0 50%, #cac0c0 0) 100% 100% /180% 180%");
+    $("#category ul li::after").css("background-color","#242424");
+    $("#category ul li::before").css("background","conic-gradient(#cac0c0 75%, #242424 0) 0 0 /180% 180%");
+    $(".shopping-cart *").css("color","#000");
+    $(".shopping-cart").css("background","#fff");
     $("footer #innerfooter").css("background","#ccc");
     $("footer #copyright").css("background","#000");
     $("footer #innerfooter *").css("color","#000");
@@ -36,6 +42,12 @@ $("#moon").click(function()
     $("#team").css("background-color","#000");
     $("#category").css("background","#000");
     $("#category ul li").css("background-color","#000");
+    $("#category ul li::before").css("background-color","#242424");
+    $("#category ul li::before").css("background","conic-gradient(#333 25%, #888888 0 50%, #333 0) 100% 100% /180% 180%");
+    $("#category ul li::after").css("background-color","#242424");
+    $("#category ul li::before").css("background","conic-gradient(#333 75%, #242424 0) 0 0 /180% 180%");
+    $(".shopping-cart *").css("color","#fff");
+    $(".shopping-cart").css("background","#000");
     $("footer #innerfooter").css("background","#000");
     $("footer #copyright").css("background","#000");
     $("footer *").css("color","#fff");
@@ -213,4 +225,26 @@ this.isOk = false;
 }
 }
 });
+
+
+
+// Remove Items From Cart
+$('a.remove').click(function(){
+  event.preventDefault();
+  $( this ).parent().parent().parent().hide( 400 );
+ 
+})
+
+// Just for testing, show all items
+  $('a.btn.continue').click(function(){
+    $('li.items').show(400);
+  })
+
+  
+
+    $('#cart').click(function(){
+      $(".shopping-cart").toggle();
+    })
+
+
 
